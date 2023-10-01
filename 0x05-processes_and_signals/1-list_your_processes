@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Display headers
+echo "PID  PPID  USER   COMMAND"
+
+# Use 'ps' command to list all processes and format the output
+ps aux --forest | awk '{printf "%4s %4s %6s   %s\n", $2, $3, $1, $0}'
+

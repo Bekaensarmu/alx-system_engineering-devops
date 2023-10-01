@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Start the script in the background
+# Capture its PID
+# Wait for a moment before stopping the process
+# Use the captured PID to stop the process
+
+echo "4-to_infinity_and_beyond PID: $bg_pid"
+
+sleep 5
+kill $bg_pid

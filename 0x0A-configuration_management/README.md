@@ -26,7 +26,7 @@ $ apt-get install -y puppet
 You do not need to attempt to upgrade versions. This project is simply a set of tasks to familiarize you with the basic level syntax which is virtually identical in newer versions of Puppet.
 
 ---
-
+## Tasks
 ### [0. Create a file](./0-create_a_file.pp)
 * Using Puppet, create a file in /tmp.
 
